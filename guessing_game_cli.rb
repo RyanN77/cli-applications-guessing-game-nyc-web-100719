@@ -3,7 +3,6 @@ number = rand(5) + 1
 input = gets.chomp
 if input.to_s == "exit"
   print "Goodbye!"
-  break
 elsif input.to_i == number
   print "You guessed the correct number!"
 elsif input.to_i != number
